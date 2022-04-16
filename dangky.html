@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="dangky.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+
+    </header>
+    <h3 id="home"><a id="home" href="index.html"><i class='bx bxs-home'></i>Trang Chủ</a></h3>
+    <div class="container">
+        <h1>ĐĂNG KÍ THÀNH VIÊN</h1>
+        <form action="">
+            <div>
+               <label for="masv">Mã sinh viên :</label>
+               <input type="text" id="masv" class="edit" placeholder="Nhập mã sinh viên">
+               
+            </div>
+            <div>
+                <label for="name">Họ và tên :</label>
+                <input type="text" id="name" class="edit" placeholder="Nhập họ va tên">
+                
+            </div>
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" id="email" class="edit" placeholder="Nhập vào email">
+               
+            </div>
+            <div>
+                <label for="gender">Giới tính :</label>
+                <input type="radio" value="Nam" id="gender" name="slip">
+                <label for="gender">Nam</label>
+                <input type="radio" value="Nữ" id="gender" name="slip">
+                <label for="gender">Nữ</label>
+            </div>
+            <div>
+                <label for="hobbies">Sở thích :</label>
+                <input type="checkbox" id="hobbies" name="st">
+                <label for="hobbies">Đọc Sách</label>
+              
+                <input type="checkbox" id="hobbies" name="st">
+                <label for="hobbies">Du lịch</label>
+
+                <input type="checkbox" id="hobbies" name="st">
+                <label for="hobbies">Ẩm Thực</label>
+                <input type="checkbox" id="hobbies" name="st">
+                <label for="hobbies">Âm Nhạc</label>
+                <input type="checkbox" id="hobbies" name="st">
+                <label for="hobbies">Khác</label>
+                
+            </div>
+            <div>
+                <label for="nationality">Quốc tịch :</label>
+                <select name="" id="nationality" class="nation" >
+                    <option value="0">Chọn Quốc Tịch</option>
+                    <option value="1">America</option>
+                    <option value="2">Korea</option>
+                    <option value="3">Japan</option>
+                    <option value="4">France</option>
+                  
+                </select>
+            </div>
+            <div>
+                <label for="note">Ghi chú :</label>
+                <textarea placeholder="Nhập không quá 200 kí tự" class="edit" name="" id="note" cols="30" rows="10"></textarea>
+                
+            </div>
+            <div style="color: red; font-weight: bold; font-size: 10px;" id="baoloi"></div>
+            
+            
+            <button onclick="checkform()" type="button">Login</button>
+            <button type="reset">Reset</button>
+        </form>
+
+    </div>
+    <footer>
+        <div>
+            <p>
+                <h2>Công ty Honda Việt Nam </h2>
+                Số GCNĐKDN: 2500150543 <br>
+                Đăng ký lần đầu: Ngày 26/6/2008 <br>
+                Đăng ký thay đổi lần thứ 11: Ngày 1/4/2021. <br>
+                Địa chỉ: Phường Phúc Thắng, Thành Phố Phúc Yên, Tỉnh Vĩnh Phúc, Việt Nam</p>
+        </div>
+        <div>
+            <p >
+                <h2> ĐƯỜNG DÂY NÓNG</h2>
+                Hotline: 1800 8001 (Miễn phí cho tất cả thuê bao) <br>
+                Email: cr@honda.com.vn
+                </p>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="form.js"></script>

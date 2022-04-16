@@ -1,0 +1,206 @@
+html, body{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: url("image/bannerTinTuc.jpg") no-repeat;
+    background-size: 100%;
+    
+    padding-bottom: 28%;
+    margin: 0;
+    position: relative;
+
+}
+header div {
+    position: absolute;
+    width: 50%;
+    bottom: 5px;
+    left: 20px;
+    color: #11468F;
+
+}
+header div span{
+    font-size: 35px;
+    color: #DA1212;
+}
+header div a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+header div a:hover{
+    transition: all .5s linear;
+    color: #DA1212;
+    font-size: 25px;
+}
+
+article{
+    width: 25%;
+    float: left;
+    height: auto;
+    
+    margin: 0;
+}
+aside{
+    width: 75%;
+    float: right;
+    height: auto;
+   
+    margin: 0;
+}
+aside h3{
+    text-align: center;
+    font-size: 25px;
+}
+aside h3 a{
+    text-decoration: none;
+}
+aside h3 a:hover{
+    transition: all .5s linear;
+    color: #DA1212;
+    font-size: 30px;
+}
+article .menu{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    
+}
+article .menu h1{
+    text-align: center;
+    font-size: 30px;
+    color: #DA1212;
+}
+article .menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+article .menu a{
+    text-decoration: none;
+    display: block;
+    margin: 20px;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: #C0D8C0;
+    padding: 10px;
+    border-radius: 10px;
+}
+article .menu a:hover{
+    color: white;
+    background-color: #11468F;
+    transform: scale(1.1);
+    transition: all .5s linear;
+}
+aside h1{
+    margin: 20px auto;
+    width: 200px;
+    border: 2px solid #91C483;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.container h4{
+    text-align: center;
+    color: #DA1212;
+    font-size: 30px;
+}
+.tableevent{
+    width: 100%;
+    
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+table td,th{
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+}
+table .bang{
+    width: 150px;
+}
+thead tr{
+    background-color: #91C483;
+}
+tbody tr{
+    background-color: antiquewhite;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+}
+.tin img{
+    width: 40%;
+    height: 300px;
+    margin: 10px 10px 0 10px;
+}
+.tin img:hover{
+    transform: scale(1.1);
+    transition: all .5s linear;
+
+}
+.tin a {
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+}
+.tin a:hover{
+    transition: all .5s linear;
+    color: #DA1212;
+    font-size: 25px;
+}
+.moreview{
+    text-align: center;
+    width: 200px;
+    background-color: rgba(255,  255,0, 0.5);
+    margin: 0 auto;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.moreview:hover{
+    line-height: 50px;
+    transition: all .5s linear;
+}
+.infor{
+    clear: both;
+    margin: 30px auto;
+    width: 80%;
+    text-align: center;
+}
+.infor img{
+    width: 100%;
+    margin: 30px;
+    border-radius: 20px;
+    
+}
+.infor a{
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+}
+.infor a:hover{
+    transition: all .5s linear;
+    font-size: 25px;
+    color: #DA1212;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #7897AB;
+   
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    cursor: pointer;
+}
+.fb-like{
+    margin-left: 10px;
+}

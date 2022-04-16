@@ -1,0 +1,310 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url(image/background-article.jpg) ;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+header{
+    margin-top: 10px;
+}
+header .img{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+header .img img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+   
+}
+header .img #left{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+   
+}
+header .img #right{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+   
+}
+header .img i{
+    font-size: 30px;
+    color: red;
+    
+    
+}
+header .img i:hover{
+    font-size: 40px;
+    transition: all .5s linear;
+    color: beige;
+    
+    
+    
+}
+header .img #count{
+    position: absolute;
+    left: 45%;
+    bottom: 10px;
+    background-color: #F9E4D4;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+nav{
+  background-color: #DA1212;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav input{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    width: 15%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+nav input:focus{
+    background-color: aquamarine;
+}
+nav input:hover{
+    transform: scale(1.1);
+    transition: all .5s linear;
+}
+nav>ul{
+    text-align: center;
+    width: 100%;
+    
+}
+nav>ul>a{
+   display: inline-block;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    margin-right:  30px;
+    font-size: large; 
+    font-size: 20px; 
+}
+nav>ul>a:hover{
+    color: #21325E;
+    transition: all .5s linear;
+    transform: scale(1.2);
+}
+
+header{
+    background: url(image/bannerhonda.jpg);
+    background-size: 100%;
+    height: 100px;
+    padding-bottom: 25%;
+    margin-top: 62px;
+    position: relative;
+}
+header>img{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 10%;
+}
+article{
+    margin: 20px;
+    
+}
+article .welcome{
+    width: 80%;
+    margin: 20px auto;
+    background-color: #F9E4D4;
+    padding: 20px;
+    border-radius: 15px;
+}
+.welcome h1, p{
+    text-align: center;
+}
+.welcome h1{
+    font-size: 50px;
+    color: #DA1212;
+}
+article .banner2{
+    width: 90%;
+    margin: 10px auto;
+    background-color: #F9E4D4;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+.banner2>img{
+    width: 100%;
+}
+
+.banner2 h2{
+    color: #11468F;
+    font-size: 30px;
+}
+.banner2 h1{
+    color: #DA1212;
+    font-size: 45px;
+}
+.cup{
+    margin: 0 auto;
+    width: 80%;
+    background-color: #F9E4D4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.cup>h1{
+    color: #505775;
+    font-size: 40px;
+}
+.cup .cup1{
+    width: 100%;
+   
+}
+.cup .cupcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.cup .cupcontainer .league{
+    flex-basis: 30%;
+    flex-grow: 1;
+    background-color: #9AD0EC;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.league >img{
+    width: 100%;
+}
+.league>a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.league>a:hover{
+    color: #DA1212 ;
+    transition: all .5s linear ;
+    font-size: 25px;
+}
+/* .league>a:visited{
+    color: blueviolet;
+} */
+.sukien{
+    background-color: #F9E4D4;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+}
+.sukien>h1{
+    color: #8B9A46;
+    text-align: center;
+    font-size: 40px;
+}
+.listevent{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.listevent>h2{
+    text-align: center;
+}
+.event{
+    flex-basis: 20%;
+    background-color: #91C483;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+.event>img{
+    width: 100%;
+    height: 220px;
+}
+.event>h1{
+    font-size: 15px;
+}
+.event>p{
+    text-align: left;
+}
+.event>a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.event>a:hover{
+    color: #DA1212;
+    transition: all .5s linear;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* .event>a:visited{
+
+} */
+.youtube{
+    margin: 10px auto;
+    width: 80%;
+    height:500px;
+    background-color: #F9E4D4;
+    padding: 10px 10px 40% 1px ;
+    border-radius: 15px;
+    text-align: center;
+}
+.youtube> iframe{
+    width: 100%;
+    height: 100%;
+    
+}
+.youtube>h1{
+    color: #DA1212;
+    font-size: 30px;
+}
+.mymap{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F9E4D4;
+    border-radius: 15px;
+    text-align: center;
+    color: #91C483;
+    font-size: 30px;
+}
+.mymap iframe{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #7897AB;
+    position: relative;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and( max-width: 600px) {
+  
+
+}
+

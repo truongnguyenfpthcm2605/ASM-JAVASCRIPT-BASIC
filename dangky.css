@@ -1,0 +1,122 @@
+html, body{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0;
+    margin: 0; 
+}
+header {
+    background: url("image/bannerdangky.jpg") no-repeat;
+    background-size: 100%;
+    height: 100px;
+    padding-bottom: 25%;
+}
+h3{
+    text-align: center;
+}
+h3 a{
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+h3 a:hover{
+    transition: all .5s linear;
+    font-size: 30px;
+    color: #B33030;
+}
+.container{
+    margin: 10px auto;
+    width: 40%;
+   
+
+}
+form{
+    width: 90%;
+    margin:  0 auto;
+}
+h1{
+    text-align: center;
+}
+form div{
+    margin-top: 10px ;
+}
+.edit{
+    display: block;
+    width: 90%;
+    outline: none;
+    border: none;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nation{
+    
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    margin-top: 10px;
+    width: 150px;
+    line-height: 30px;
+    outline: none;
+    border: none;
+    background-color: coral;
+    border-radius: 15px;
+    font-size: 15px;
+}
+button:hover{
+    background-color:greenyellow;
+    transform: scale(1.05);
+    transition: all 1s linear;
+    font-size: 17px;
+}
+input:focus{
+    background-color: azure;
+}
+p{
+    padding: 0;
+    margin: 0;
+    color: red;
+    font-weight: 100;
+}
+.loi{
+    display: block;
+    width: 90%;
+    outline: none;
+    border: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.success{
+    display: block;
+    width: 90%;
+    outline: none;
+    border: none;
+    background-color:#B5FE83;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.natione{
+    
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color:#B5FE83;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #7897AB;
+   
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}

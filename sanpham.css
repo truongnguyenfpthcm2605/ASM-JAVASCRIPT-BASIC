@@ -1,0 +1,307 @@
+html , body{
+    font-family: 'Fira Sans', sans-serif;
+    width: 100%;
+    margin: 0 ;
+    padding: 0;
+    background: url("image/background-html.jpg") ;
+
+}
+header{
+    background: url("image/background-SanPham.jpg") no-repeat  ;
+    background-size: 100% 100%;
+    width: 80%;
+    height:450px;
+    
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: hsl(135, 54%, 35%);
+    line-height: 50px;
+    border-radius: 10px;
+}
+nav  a{
+    text-decoration: none;
+    margin: 15px;
+    color: wheat;
+    font-size: large;
+    font-weight: bold;
+}
+nav ul{
+    padding: 0;
+    margin: 2px;
+}
+nav a:hover{
+    color: #DA1212;
+    transition: all .5s linear;
+    font-size: 20px;
+}
+article{
+    border-radius: 20px;
+    margin: 10px;
+    
+   height: auto;
+   padding: 10px;
+
+   
+}
+article h3{
+    margin-bottom: 30px;
+}
+article h3 a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 23px;
+    
+}
+article h3 a:hover{
+    transition: .5s all linear;
+    font-size: 30px;
+    color: #085E7D;
+}
+article .sreach{
+    text-align: center;
+    margin: 20px;
+    color: #9AE66E;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sreach input{
+    padding: 10px;
+    width: 500px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+.sreach input:hover{
+    transform: scale(1.1);
+    transition: all .5s linear;
+
+}
+.sreach input:focus{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    color:#9AE66E;
+    border: 2px solid red;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.sanpham{
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+
+    
+
+}
+.img{
+    background-color:white;
+    
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    position: relative;
+}
+.img .logonew{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.img img{
+   width: 100%;
+   height: 400px;
+}
+.img img:hover{
+    
+    transition: all .5s linear;
+}
+.img h3{
+    color: #DA1212;
+}
+.img a{
+    font-weight: bold;
+     font-style: italic;
+    
+}
+.img a:hover{
+    transition: all .5s linear;
+    color: #DA1212;
+}
+.img .colorcar{
+    text-align: center;
+}
+.img .colorcar i{
+    font-size: 20px;
+}
+.moreview{
+    text-align: center;
+    width: 200px;
+    background-color: rgba(255,  255,0, 0.5);
+    margin: 0 auto;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.moreview:hover{
+    line-height: 50px;
+    transition: all .5s linear;
+}
+.bannermoto{
+    margin: 10px;
+    padding: 0;
+    position: relative;
+}
+.bannermoto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+.bannermoto #likebannerpkl{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.pkl{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.moto{
+    width: 20%;
+    margin: 5px;
+}
+.moto img{
+    width: 100%;
+    height: 250px;
+}
+.moto img:hover{
+    transform: scale(1.1);
+    transition: all .5s linear;
+}
+.moto .infotmation{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.moto .colorcar{
+    text-align: center;
+    font-size: 20px;
+}
+.moto a {
+    font-style: italic;
+}
+.moto a:hover{
+    transition: all .5s linear;
+    color: #DA1212;
+    font-size: 20px;
+}
+.moto .colorcar h3{
+    color: #DA1212;
+}
+.moto .colorcar h3:hover{
+    color: #DA1212;
+    font-size: 20px;
+    transition: all .5s linear;
+}
+.otobanner{
+    display: flex;
+    height: 600px;
+    margin: 10px;
+}
+.otobanner .imgoto{
+    width: 60%;
+    margin: 10px;
+
+}
+.imgoto img{
+    width: 100%;
+    height:auto;
+    border-radius: 15px;
+}
+.otobanner .story{
+    width: 40%;
+    background-color: antiquewhite;
+    padding: 10px;
+    height:auto;
+    border-radius: 15px;
+}
+.story .title{
+    color: #9AE66E;
+}
+.story .family{
+    color: #DA1212;
+    font-size: 50px;
+}
+.story a:hover{
+transition: all .5s linear;
+color: #DA1212;
+font-size: 20px;
+}
+.bycar{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.bycar .car{
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+    
+    
+}
+.bycar .car img{
+    width: 100%;
+    height: 300px;
+}
+.bycar .car img:hover{
+   transform: scale(1.2);
+   transition: all .5s linear;
+    
+}
+.bycar .car .icon ,h3{
+    text-align: center;
+    font-size: 20px;
+}
+.bycar .car .content{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.bycar .car .content a:hover{
+    transition: all .5s linear;
+    color: #DA1212;
+    font-size: 20px;
+}
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #7897AB;
+   
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    cursor: pointer;
+}

@@ -1,0 +1,181 @@
+html, body{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #DA1212;
+    margin: 0;
+    padding: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: antiquewhite;
+}
+header{
+    background: url("image/bannergioithieu.jpg") no-repeat;
+    background-size: 100%;
+    width: 80%;
+    height: 100px;
+    padding-bottom: 25%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+ div.gioithieu{
+    width: 80%;
+    margin: 50px auto;
+    display: block;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    height: 350px;
+    padding: 10px;
+}
+.gioithieu  img .logo{
+    margin: 0 auto;
+    margin: 10px;
+    padding: 10px;
+}
+.gioithieu img{
+    width: 200px ;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+
+    
+}
+.gioithieu h4{
+    padding: 0;
+    font-size: 20px;
+    
+}
+
+
+h3 {
+    text-align: center;
+}
+h3 a{
+    text-decoration: none;
+    font-size: 25px;
+    color:#11468F;
+}
+h3 a:hover{
+    transition: all .5s linear;
+    font-size: 30px;
+    color: #DA1212;
+}
+.history{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.history div{
+    border: 2px solid red;
+    width: 25%;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 15px;
+}
+.history div:hover{
+    transform: scale(1.1);
+    transition: all .5s linear;
+    background-color: #DA1212;
+    color: antiquewhite;
+}
+.star{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+
+}
+.star h1{
+    color: #A6CF98;
+   
+}
+.star h2{
+    color: #DA1212;
+    
+    font-size: 30px;
+}
+.star img{
+    width: 100%;
+    height: auto;
+}
+.sanpham  {
+   display: flex;
+   justify-content: space-evenly;
+
+}
+.sanpham div{
+    width: 22%;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sanpham div img{
+    width: 100%;
+    height: 300px;
+    margin: 5px;
+}
+.sanpham div h2{
+    color: #DA1212;
+    font-size: 25px;
+    
+}
+.sanpham div a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.sanpham div a:hover{
+    transition: all .5s linear;
+    font-size: 24px;
+    color: #DA1212;
+}
+.highlight{
+    width: 90%;
+    margin:  20px auto;
+    text-align: center;
+}
+.highlight img{
+    width: 100%;
+    height: 800px;
+}
+.highlight h1{
+    color: #DA1212;
+    font-size: 35px;
+}
+.highlight  a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.highlight  a:hover{
+    transition: all .5s linear;
+    font-size: 24px;
+    color: #DA1212;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #7897AB;
+   
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    cursor: pointer;
+}
+.moreview{
+    text-align: center;
+    width: 200px;
+    background-color: rgba(255,  255,0, 0.5);
+    margin: 0 auto;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.moreview:hover{
+    line-height: 50px;
+    transition: all .5s linear;
+}
